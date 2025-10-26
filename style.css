@@ -1,0 +1,413 @@
+html,
+body {
+  width: 100%;
+  height: 100%;
+  color: white;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: "Chillax-Regular";
+  src: url("fonts/63cffc0a3942456e003bc265_Chillax-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "light";
+  src: url(fonts/63cffc20aa8997095067596f_Satoshi-Light.woff);
+}
+@font-face {
+  font-family: "other";
+  src: url(fonts/L0x5DF4xlVMF-BfR8bXMIjhLq3-cXbKD.woff2);
+}
+body {
+  background-color: #121212;
+}
+
+section {
+  max-width: 2000px;
+}
+
+main {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 0rem;
+  align-items: center;
+  background-color: #121212;
+}
+main section.view1 {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  font-family: "Chillax-Regular";
+  padding: 1rem;
+}
+main section.view1 .top {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 0rem;
+}
+main section.view1 .top img {
+  object-fit: cover;
+  border-radius: 0.8rem;
+  height: 100%;
+}
+main section.view1 .bottom {
+  background-color: #222222;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 0rem;
+  padding-left: 0.5rem;
+  border-radius: 0.8rem;
+  padding-left: 28px;
+}
+main section.view1 .bottom .light {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+  color: rgb(244, 242, 237);
+  font-size: 14px;
+  font-weight: 100;
+  justify-content: space-around;
+  padding: 2rem 0rem 4rem 0rem;
+}
+main section.view1 .bottom .title {
+  font-weight: lighter;
+  font-family: "Chillax-Regular";
+  color: rgb(244, 242, 237);
+  opacity: 0.7;
+  text-transform: uppercase;
+}
+main section.view1 .bottom .text {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 0rem;
+  font-family: light;
+  color: lightgrey;
+  opacity: 0.7;
+}
+main section.view1 .bottom .btm-button > button {
+  gap: 20px;
+  width: 100px;
+  height: 40px;
+  border-radius: 0.5rem;
+  background-color: rgb(96, 95, 95);
+  color: lightgrey;
+}
+main section.view2 {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 4rem;
+  border-radius: 15px;
+  font-family: "light";
+  padding: 1rem;
+}
+main section.view2 .top,
+main section.view2 .bottom {
+  display: flex;
+  justify-content: space-around;
+  gap: 1rem;
+}
+main section.view2 .top h2,
+main section.view2 .bottom h2 {
+  font-weight: 50;
+  font-size: 2.5rem;
+  opacity: 0.5;
+}
+main section.view2 .top small,
+main section.view2 .bottom small {
+  font-size: 1rem;
+  text-transform: uppercase;
+  font-family: "Chillax-Regular";
+  opacity: 0.3;
+}
+main section.view3 {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  font-family: "Chillax-Regular";
+  padding: 1rem;
+}
+main section.view3 .top {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 0rem;
+}
+main section.view3 .top img {
+  object-fit: cover;
+  border-radius: 0.8rem;
+  height: 100%;
+}
+main section.view3 .bottom {
+  background-color: #222222;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 0rem;
+  padding-left: 0.5rem;
+  border-radius: 0.8rem;
+  padding-left: 28px;
+  justify-content: space-between;
+}
+main section.view3 .bottom .light {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+  color: rgb(244, 242, 237);
+  font-size: 14px;
+  font-weight: 100;
+  justify-content: space-around;
+  padding: 2rem 0rem 4rem 0rem;
+}
+main section.view3 .bottom .title {
+  font-weight: 100;
+  font-family: light;
+  color: rgb(244, 242, 237);
+  opacity: 0.7;
+  text-transform: uppercase;
+}
+main section.view3 .bottom .text {
+  font-family: light;
+  color: lightgrey;
+  opacity: 0.7;
+}
+main section.view4 {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  font-family: "Chillax-Regular";
+  padding: 1rem;
+}
+main section.view4 .top {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 0rem;
+}
+main section.view4 .top img {
+  object-fit: cover;
+  border-radius: 0.8rem;
+  height: 100%;
+}
+main section.view4 .bottom {
+  background-color: #222222;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 0rem;
+  padding-left: 0.5rem;
+  border-radius: 0.8rem;
+  padding-left: 28px;
+  justify-content: space-between;
+}
+main section.view4 .bottom .light {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+  color: rgb(244, 242, 237);
+  font-size: 14px;
+  font-weight: 100;
+  justify-content: space-around;
+  padding: 2rem 0rem 4rem 0rem;
+}
+main section.view4 .bottom .title {
+  font-weight: 100;
+  color: rgb(244, 242, 237);
+  opacity: 0.7;
+  text-transform: uppercase;
+}
+main section.view4 .bottom .text {
+  font-family: light;
+  color: lightgrey;
+  opacity: 0.7;
+}
+main section.view5 {
+  width: 100%;
+  display: flex;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 0rem;
+  gap: 2rem;
+}
+main section.view5 .light {
+  font-family: "Chillax-Regular";
+  color: rgb(244, 242, 237);
+  font-size: 14px;
+  font-weight: 100;
+  padding-left: 2rem;
+}
+main section.view5 .card {
+  width: 100%;
+  background-image: url(/SCSS_Template/images/section5_img1.webp);
+  background-size: cover;
+  aspect-ratio: 1/1;
+  border-radius: 0.8rem;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 0rem;
+  justify-content: space-between;
+  padding: 1rem;
+  margin: 1rem;
+  text-transform: uppercase;
+}
+main section.view5 .card .icon,
+main section.view5 .card .bottom {
+  background-color: rgba(137, 133, 133, 0.384);
+  backdrop-filter: blur(2px);
+  border: 1px solid rgba(245, 245, 245, 0.268);
+  border-radius: 0.3rem;
+  padding: 0.4rem;
+  margin: 0.5rem;
+}
+main section.view5 .card .icon {
+  width: fit-content;
+  border-radius: 50%;
+}
+main section.view5 .card .top {
+  display: flex;
+  justify-content: flex-end;
+}
+main section.view5 .card .bottom {
+  display: flex;
+  gap: 1rem;
+  justify-content: space-between;
+  padding: 1rem 2rem;
+}
+
+@media (min-width: 900px) {
+  main section.view1 {
+    flex-direction: row;
+    padding: 1rem 4rem;
+    border-radius: 15px;
+  }
+  main section.view1 .top,
+  main section.view1 .bottom {
+    width: 50%;
+  }
+  main section.view1 .bottom {
+    justify-content: space-between;
+    padding: 1rem 2rem;
+  }
+  main section.view1 .bottom .light {
+    font-size: 1.5rem;
+  }
+  main section.view1 .bottom h1 {
+    font-size: 3rem;
+  }
+  main section.view1 .bottom .center {
+    width: 60%;
+    gap: 7rem;
+  }
+  main section.view1 .bottom .text {
+    font-size: 1.5rem;
+    opacity: 0.5;
+    width: 80%;
+  }
+  main section.view2 {
+    flex-direction: row;
+    padding: 1rem 4rem;
+    border-radius: 15px;
+  }
+  main section.view2 .top,
+  main section.view2 .bottom {
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+  }
+  main section.view3 {
+    flex-direction: row-reverse;
+    padding: 1rem 4rem;
+    border-radius: 15px;
+  }
+  main section.view3 .top,
+  main section.view3 .bottom {
+    width: 50%;
+  }
+  main section.view3 .bottom {
+    justify-content: center;
+    padding: auto 2rem;
+  }
+  main section.view3 .bottom .light {
+    font-size: 1.5rem;
+  }
+  main section.view3 .bottom h1 {
+    font-size: 3rem;
+  }
+  main section.view3 .bottom .center {
+    width: 80%;
+  }
+  main section.view3 .bottom .center .text {
+    display: flex;
+    gap: 4rem;
+  }
+  main section.view3 .bottom .center .text p {
+    font-size: 1.5rem;
+    gap: 3rem;
+  }
+  main section.view4 {
+    flex-direction: row;
+    padding: 1rem 4rem;
+    border-radius: 15px;
+  }
+  main section.view4 .top,
+  main section.view4 .bottom {
+    width: 50%;
+  }
+  main section.view4 .bottom {
+    justify-content: space-between;
+    padding: 1rem 2rem;
+  }
+  main section.view4 .bottom .light {
+    font-size: 1.5rem;
+  }
+  main section.view4 .bottom h1 {
+    font-size: 3rem;
+  }
+  main section.view4 .bottom .center {
+    width: 80%;
+  }
+  main section.view4 .bottom .center .text {
+    display: flex;
+    gap: 4rem;
+  }
+  main section.view4 .bottom .center .text p {
+    font-size: 1.5rem;
+    gap: 3rem;
+  }
+  main section.view5 {
+    flex-direction: column;
+    padding: 1rem 3rem;
+  }
+  main section.view5 .light {
+    font-size: 1.5rem;
+  }
+  main section.view5 .cards {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    gap: 2rem;
+    width: 100%;
+  }
+  main section.view5 .cards .card {
+    border-radius: 15px;
+  }
+}
